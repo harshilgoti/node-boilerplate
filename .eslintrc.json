@@ -1,0 +1,18 @@
+{
+  "env": {
+    // "browser": true,
+    "node": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["standard"],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "space-before-function-paren": "off",
+    "prefer-const": "off",
+    "no-var": "off",
+    "quotes": ["error", "double"]
+  }
+}
